@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+}
+.experience-heading {
+  margin-left: 90px;
+  margin-bottom: 0;
+}
+.highlight {
+  color: rgb(4, 219, 112);
+}
+.description {
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 20px;
+  padding-right: 40px;
+}
+.first-part {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding-left: 2%;
+}
+.second-part {
+  width: 40%;
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.third-part {
+  width: 40%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 5%;
+  padding-left: 2%;
+  box-shadow: 10px 10px 40px gray;
+  height: 80%;
+  border-radius: 5px;
+  background-color: white;
+}
+.third-part p {
+  line-height: 1.6;
+  text-align: justify;
+  padding-right: 25px;
+  margin: 0, 10px, 20px, 0;
+}
+.first-part img {
+  width: 100%;
+}
+.second-part img {
+  width: 100%;
+}
+.top-banner {
+  background-image: url('images/top-banner.png');
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-bottom: 50px;
+}
+.dream-area {
+  background-image: url('images/dream-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: rgb(249, 251, 252);
+  height: 500px;
+  margin-bottom: 40px;
+}
+.experience-area {
+  background-image: url('images/exp-bg.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 500px;
+  margin-bottom: 50px;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(
+    45deg,
+    rgb(255, 180, 116),
+    rgb(255, 153, 0)
+  );
+  color: white;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.link-button:hover {
+  background-image: linear-gradient(
+    45deg,
+    rgb(248, 180, 116),
+    rgb(255, 123, 0)
+  );
+  transition: 0.4s;
+}
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#baby {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
